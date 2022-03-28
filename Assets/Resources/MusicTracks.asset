@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acefb3b527f942a49d9069c92c4109a0, type: 3}
+  m_Name: MusicTracks
+  m_EditorClassIdentifier: 
+  pairs:
+  - id: grocery
+    clip: {fileID: 8300000, guid: 82e8e6cad33e3f140b54c21b3a62e1bc, type: 3}
+  - id: campsite
+    clip: {fileID: 8300000, guid: 1540f1229dfb6d04e9dab816ad1e029b, type: 3}
+  - id: high-school
+    clip: {fileID: 8300000, guid: 3fd5c9f81f49f1049a2fc48d4c036322, type: 3}
+  - id: science
+    clip: {fileID: 8300000, guid: 7d3185c23fbfc0948907c3c4ab486f02, type: 3}
+  - id: grocery
+    clip: {fileID: 8300000, guid: 3c4f1d9a56e5f9048be3dd2017644fed, type: 3}
+  - id: rio-ambient
+    clip: {fileID: 8300000, guid: a4816472675939e41be006cac91ee894, type: 3}
+  - id: school-ambient
+    clip: {fileID: 8300000, guid: 671b909b0037f4a43803d192bce934d0, type: 3}
+  - id: sport-club-music
+    clip: {fileID: 8300000, guid: 1a0e42e1700d65a48b21b82574a3803e, type: 3}
+  - id: sport-club-ambiance
+    clip: {fileID: 8300000, guid: aaf2cc9674c89e94fbe90af4d0430c20, type: 3}
+  - id: space-atmosphere
+    clip: {fileID: 8300000, guid: 992af02c48a66764abbfd2747dfc8389, type: 3}
+  - id: park-ambient
+    clip: {fileID: 8300000, guid: a6442be1fbd48b346b91b6ca90af9902, type: 3}
+  - id: park-music
+    clip: {fileID: 8300000, guid: 683c96192149bd5479db56fcb8c553ca, type: 3}
+  - id: cafe-music
+    clip: {fileID: 8300000, guid: 7b5bb0b99a1f8b74bb2099063a404350, type: 3}
+  - id: cafe-atmosphere
+    clip: {fileID: 8300000, guid: c578bdaec39a4d9439edfd0d191cd9af, type: 3}
+  - id: fairyland-atmosphere
+    clip: {fileID: 8300000, guid: e75bc183f9a2a36498df46f919818981, type: 3}
+  - id: hawaii-atmosphere
+    clip: {fileID: 8300000, guid: e78a8bd673b9cf24ebbeaa783f2460d4, type: 3}
+  - id: supermarket-atmosphere
+    clip: {fileID: 8300000, guid: 46c294aadd78c0a42a3adb69c2a8632a, type: 3}
+  - id: yacht-atmosphere
+    clip: {fileID: 8300000, guid: ecfece5e9322c394aaa58ae7bf44f6f4, type: 3}
+  - id: winterland-atmosphere
+    clip: {fileID: 8300000, guid: dc0992867b3bc5f4bb4604b91dab81b3, type: 3}

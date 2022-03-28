@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48df1b4db7494918ba81bbc52cb4755d, type: 3}
+  m_Name: RoomsData
+  m_EditorClassIdentifier: 
+  list:
+  - roomId: rio
+    roomName: Rio
+    musicClipKey: rio-ambient
+    musicPerArea: []
+    background: {fileID: 21300000, guid: d3f83783ccd3bd74799be3a2963604e3, type: 3}
+    mask: {fileID: 21300000, guid: fc4d274b209626740a52c0504035094d, type: 3}
+    thumbnail: {fileID: 0}
+    publicArea: 0
+  - roomId: school
+    roomName: School
+    musicClipKey: school-ambient
+    musicPerArea: []
+    background: {fileID: 21300000, guid: fd8b8cdfa4fda4331ae159296d0c50b2, type: 3}
+    mask: {fileID: 21300000, guid: e93e25aee7ab84d3da5a6343b0976d85, type: 3}
+    thumbnail: {fileID: 21300000, guid: b30e43904a06c3c47940a1963e702a55, type: 3}
+    publicArea: 1
+  - roomId: sports
+    roomName: Sports Club
+    musicClipKey: sport-club-ambiance
+    musicPerArea:
+    - trackId: sport-club-music
+      color: {r: 0, g: 1, b: 0, a: 1}
+    - trackId: sport-club-ambiance
+      color: {r: 1, g: 1, b: 0, a: 1}
+    background: {fileID: 21300000, guid: 5f920e7c959c54f199645860d6a0005f, type: 3}
+    mask: {fileID: 21300000, guid: ea4adc1894fb94e0bb21c95edcc35f0e, type: 3}
+    thumbnail: {fileID: 21300000, guid: bacc89dba3987bb4d840ae48cd73e86c, type: 3}
+    publicArea: 1
+  - roomId: space
+    roomName: Space
+    musicClipKey: space-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: a056065b1459a4f09ac20c7e457263ca, type: 3}
+    mask: {fileID: 21300000, guid: cca436d31ab5f794884f9621eee06bb8, type: 3}
+    thumbnail: {fileID: 21300000, guid: 7a9d5387780e49e4c80a284fba9619dd, type: 3}
+    publicArea: 1
+  - roomId: park
+    roomName: Park
+    musicClipKey: park-ambient
+    musicPerArea:
+    - trackId: park-ambient
+      color: {r: 0, g: 1, b: 0, a: 1}
+    - trackId: park-music
+      color: {r: 0, g: 0, b: 1, a: 1}
+    background: {fileID: 21300000, guid: 7ea922d47720846f59142803f7d6947f, type: 3}
+    mask: {fileID: 21300000, guid: cca436d31ab5f794884f9621eee06bb8, type: 3}
+    thumbnail: {fileID: 21300000, guid: ff0877d87f4a4b84c8fdfa1c3f347fc3, type: 3}
+    publicArea: 1
+  - roomId: cafe
+    roomName: Cafe
+    musicClipKey: cafe-atmosphere
+    musicPerArea:
+    - trackId: cafe-music
+      color: {r: 1, g: 0, b: 0, a: 1}
+    background: {fileID: 21300000, guid: 940846f842f484da7af49512b9af9d1e, type: 3}
+    mask: {fileID: 21300000, guid: cca436d31ab5f794884f9621eee06bb8, type: 3}
+    thumbnail: {fileID: 21300000, guid: f7c7ff3d2eed1024d83dd37f84a2d9dd, type: 3}
+    publicArea: 1
+  - roomId: fairyland
+    roomName: Fairy Land
+    musicClipKey: fairyland-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: acd68533cd8374147be10531543d76be, type: 3}
+    mask: {fileID: 21300000, guid: 93aa4ab315e9d3c40bb73d324a28196f, type: 3}
+    thumbnail: {fileID: 0}
+    publicArea: 0
+  - roomId: hawaii
+    roomName: Hawaii
+    musicClipKey: hawaii-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: 87dd9d99c5c31e543b71f46760aee12c, type: 3}
+    mask: {fileID: 21300000, guid: 61da41c72e2ad544aad41d0b88b7db33, type: 3}
+    thumbnail: {fileID: 0}
+    publicArea: 0
+  - roomId: supermarket
+    roomName: Supermarket
+    musicClipKey: supermarket-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: 549bcc80d328c41709938b1e01ce65b5, type: 3}
+    mask: {fileID: 21300000, guid: cca436d31ab5f794884f9621eee06bb8, type: 3}
+    thumbnail: {fileID: 21300000, guid: 3d891f16460b1524a910033028c40172, type: 3}
+    publicArea: 1
+  - roomId: yacht
+    roomName: Yacht
+    musicClipKey: yacht-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: 8d408b9c6ada24a40845b09faffc4ced, type: 3}
+    mask: {fileID: 21300000, guid: 2a98361ba1ba25a44ae838d989eba48b, type: 3}
+    thumbnail: {fileID: 0}
+    publicArea: 0
+  - roomId: winter
+    roomName: Winterland
+    musicClipKey: winterland-atmosphere
+    musicPerArea: []
+    background: {fileID: 21300000, guid: 4dce7cf8ef495f549a73c8bbdfc86917, type: 3}
+    mask: {fileID: 21300000, guid: dcf61ae091b493343a3cb25923af2a20, type: 3}
+    thumbnail: {fileID: 0}
+    publicArea: 0
+  defaultRoom: rio
